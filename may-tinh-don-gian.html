@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="4">
+            <input type="text" id="kq" disabled>
+        </td>
+    </tr>
+    <tr>
+        <td><input type="button" value="1" onclick="kq.value+=1"></td>
+        <td><input type="button" value="2" onclick="kq.value+=2"></td>
+        <td><input type="button" value="3" onclick="kq.value+=3"></td>
+        <td><input type="button" value="+" onclick="kq.value+='+'"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4" onclick="kq.value+=4"></td>
+        <td><input type="button" value="5" onclick="kq.value+=5"></td>
+        <td><input type="button" value="6" onclick="kq.value+=6"></td>
+        <td><input type="button" value="-" onclick="kq.value+='-'"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7" onclick="kq.value+=7"></td>
+        <td><input type="button" value="8" onclick="kq.value+=8"></td>
+        <td><input type="button" value="9" onclick="kq.value+=9"></td>
+        <td><input type="button" value="x" onclick="kq.value+='*'"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="C" onclick="kq.value=''"></td>
+        <td><input type="button" value="0" onclick="kq.value+=0"></td>
+        <td><input type="button" value="=" onclick="kq.value=eval(kq.value)"></td>
+        <td><input type="button" value="/" onclick="kq.value+='/'"></td>
+    </tr>
+</table>
+</td>
+</body>
+</html>
